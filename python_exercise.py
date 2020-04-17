@@ -74,3 +74,26 @@ quit - to quit
     else:
         print("Sorry, I don't understand that")
         
+#To calculate the  total price of an imaginary shopping cart
+prices = [10, 20,30]
+total = 0
+for price in prices:
+    total += price
+    print(f"Total: {total}") 
+
+#printing the letter F in the output terminal using Nested loop
+numbers = [5, 2, 5, 2, 2]
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    print(output)
+
+#A program to display the largest number in alist of numbers
+numbers = [3, 6, 2, 8, 4, 110]       
+max = numbers[0]
+for number in numbers:
+    if number > max:
+        max = number
+print(max)
+        
