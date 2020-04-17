@@ -130,3 +130,42 @@ import math
 n = 3
 k = 5
 math.factorial(6)/ (math.factorial(k) * math.factorial(n - k))
+#For loops
+#A sample to count numbers from 0 to 10
+for items in range (10):
+    print(items)
+
+#Nested loops
+for x in range (4):
+    for y in range (3):
+        print(f'({x}, {y})')  #The "print" outputs the cordinates of x and y together
+
+#Lists
+names = ['Maria', 'Chisom', 'Faith', 'Kanyinsola']
+print(names)
+#To add anything to the beginning of a list you call the function ".insert(then you type the index number of where you want the number to be, add a comma to it  and thn space the value you want to add e.g (0, 10))"
+#the "pop()" removes the last value in a list
+#To add anything to the end of a list you call the functon ".append()"
+#To sort a list in ascending order you call the function ".sort()"
+#To sort a list in descending order you call the function ".reverse()"
+
+#2 Dimensional list (2D list)
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print(matrix[0][1]) #To access the first row and the second element in the first row
+
+#Tuples use parenthesis "()" instead of "[]"
+cordinates = (1, 2, 3)
+x,y,z = cordinates
+print(y)
+
+#Dictionaries
+customer = {
+    "name":  "John Smith",
+    "age":  30,
+    "is_verified":  True
+}
+print(customer["name"])
